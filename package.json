@@ -6,7 +6,7 @@
   "license": "RIT",
   "main": "app.js",
   "scripts": {
-  "start": "get_ex1.js"
+  "start": "node get_ex1.js"
 },
   "keywords": [
     "nodejs",
