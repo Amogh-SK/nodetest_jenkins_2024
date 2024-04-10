@@ -15,7 +15,7 @@ response = {
    //res.end(JSON.stringify(response));  
    res.end("Sent data are (GET): first name :"+req.query.first_name+" and last name :"+req.query.last_name);
 })  
-var server = app.listen(8080, function () {  
+var server = app.listen(3000, function () {  
   
   var host = server.address().address  
   var port = server.address().port  
